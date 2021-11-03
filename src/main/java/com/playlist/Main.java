@@ -3,7 +3,6 @@ package com.playlist;
 import java.util.*;
 
 public class Main {
-    private static ArrayList<Album> albums = new ArrayList<>();
 
     public static void main(String[] args) {
 
@@ -32,9 +31,10 @@ public class Main {
         albums.get(1).addToPlayList("Rap", playList_1);
         albums.get(1).addToPlayList("Lose Yourself", playList_1);
 
-
         play(playList_1);
     }
+
+    private static ArrayList<Album> albums = new ArrayList<>();
 
     private static void play(LinkedList<Song> playList) {
             Scanner sc = new Scanner(System.in);
