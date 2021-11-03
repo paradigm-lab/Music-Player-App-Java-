@@ -1,2 +1,4 @@
-package com.playlist;public class Album {
+package com.playlist;
+
+public class Album {
 }
