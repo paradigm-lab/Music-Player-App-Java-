@@ -3,9 +3,9 @@ plugins {
 }
 
 apply plugin: 'application'
-mainClassName = "Main"
+mainClassName = "com.playlist.Main"
 
-group 'Main'
+group 'com.playlist.Main'
 version '1.0-SNAPSHOT'
 
 repositories {
